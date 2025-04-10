@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		body {
+			background-color: cornflowerblue;
+			font-family: Helvetica, Arial, sans-serif;
+		}
+		.introduction {
+			background-image: url('webprog_section1.png');
+			width: 1414px;
+			height: 2000px;
+			flex: 1;
+			align-items: center;
+			color: black;
+			text-align: left;
+		}
+		.company {
+			margin-left: 40px;
+			margin-right: 800px;
+		}
+		.visionmission {
+			margin-left: 40px;
+			margin-right: 800px;
+		}
+		.highlights {
+			margin-left: 40px;
+			margin-right: 400px;
+		}
+		.facilities {
+			background-image: url('webprog_section2.png');
+			width: 1414px;
+			height: 2000px;
+			flex: 1;
+			color: black;
+			font-size: 25px;
+		}
+		.registrationForm {
+			background-image: url('webprog_section3.png');
+			width: 1414px;
+			height: 2000px;
+			display: flex;
+			justify-content: flex-end; 
+			align-items: center;
+			padding-right: 80px; 
+			box-sizing: border-box;
+			color: black;
+			margin-right: 20px;
+		}
+		.condoinfo {
+			align-items: center;
+  			display: flex;
+  			justify-content: space-between;
+  			margin: 40px;
+		}
+		.condoinfo .description {
+  			flex: 1;
+  			text-align: right;
+		}
+
+		.condoinfo .condopic {
+  			flex: 1;
+  			display: flex;
+  			justify-content: flex-start;
+  			height: 250px;
+  			width: 180px;
+		}		
+		.formwrapper {
+			width: 400px;
+			background: rgba(255, 255, 255, 0.8);
+			padding: 30px 40px;
+			border-radius: 15px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+			text-align: right;
+		}
+
+		.error {
+            color: red;
+            font-size: 12px;
+        }
+        input[type="text"], input[type="email"] {
+			width: 100%;
+			padding: 10px;
+			font-size: 18px;
+			margin-top: 8px;
+			border: none;
+			border-radius: 8px;
+			background: linear-gradient(lightblue, cornflowerblue);
+			box-sizing: border-box;
+		}
+
+		button {
+			width: 100%;
+			padding: 12px;
+			font-size: 18px;
+			background: linear-gradient(lightblue, cornflowerblue);
+			border: none;
+			border-radius: 8px;
+			cursor: pointer;
+			transition: background-color 0.3s ease, transform 0.2s ease;
+		}
+
+		button:hover {
+			background-color: royalblue;
+			transform: scale(1.05);
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<div class="introduction">
+		<img src="SMDC.png" alt="SMDC" width="300" height="120">
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<div class="company">
+		<p style="font-weight: bold; font-size: 40px"> We have the makings of your next dream home </p>
+		<p style="font-size: 25px"> SMDC offers a variety of condominiums located all across the Philippines. </p>
+		</div>
+
+		<div class="visionmission">
+			<p style="font-weight: bold; font-size: 40px"> Vision & Mission </p>
+			<p style="font-size: 20px;"> SMDC is committed to understanding and fulfilling the evolving needs and aspirations of its customers, placing them at the center of everything it does. The company also values the professional growth of its employees by providing continuous development opportunities. In addition, SMDC actively fosters social responsibility within the communities it serves and strives to enhance shareholder value for its investors. All these efforts are carried out with a strong dedication to environmental sustainability, ensuring that its operations protect and preserve a healthy environment for future generations. SMDC envisions building and managing property developments that are both innovative and sustainable, setting new standards in the real estate industry. The company strives to create communities that serve as catalysts for a better quality of life for their residents. With a goal of becoming a leading developer of world-class residences in the Philippines, SMDC is dedicated to uplifting Filipino lifestyles by offering convenient, upscale, yet affordable living spaces that are also environmentally friendly.</p>
+		</div>
+
+		<div class="highlights">
+			<p style="font-weight: bold; font-size: 40px"> What makes SMDC stand out? </p>
+			<p style="font-size: 20px;"> SMDC properties are strategically located, often situated near major commercial centers, transportation hubs, and entertainment areas, offering residents unparalleled convenience. Many developments are designed as integrated communities, allowing access to shopping, dining, and entertainment within the complex itself. SMDC condominiums are equipped with modern amenities such as swimming pools, fitness centers, landscaped gardens, and elegant lobbies that cater to a variety of lifestyles. The company places a strong emphasis on quality construction and thoughtful design, ensuring that each unit is both visually appealing and highly functional. </p>
+
+			<p style="font-size: 20px;"> In recognition of the Philippines’ geographic conditions, SMDC developments are built to be disaster-resilient, featuring earthquake-resistant and flood-free designs. A wide variety of unit options—from cozy studios to spacious family-sized residences—are available to meet the diverse needs of buyers. SMDC also fosters a strong sense of community through amenities and spaces designed to encourage social interaction. Despite offering upscale living, SMDC maintains affordability, making its properties accessible to middle-market buyers. These properties are widely regarded as sound investments due to their prime locations, quality features, and potential for value appreciation. Moreover, SMDC ensures excellent property management, keeping buildings and amenities in top condition. </p>
+		</div> 
+
+	</div>
+
+	<div class="facilities">
+	<br><br><br><br><br><br><br><br><br><br><br>
+
+		<div class="condoinfo">
+			<div class="condopic" style="margin-left: 620px;">
+				<img src="air.jpg" alt="Air">
+			</div>
+			<div class="description" style="margin-left: 25px;">
+				<h3>Air Residences</h3>
+    			<p>Located in the heart of Makati, one of Metro Manila’s largest and most prosperous central business districts, Air Residences puts you in the right place to make your mark and find the success you’re looking for.</p>
+			</div>
+		</div>
+
+		<div class="condoinfo">
+			<div class="condopic" style="margin-left: 550px;">
+				<img src="jade.jpg" alt="Jade">
+			</div>
+			<div class="description">
+				<h3 style="text-align: right;">Jade Residences</h3>
+    			<p style="text-align: left;">SMDC Jade Residences epitomizes timeless beauty with its contemporary architecture, thoughtfully crafted interiors, and luxurious amenities, offering residents an effortlessly elegant lifestyle.</p>
+			</div>
+
+		</div>
+
+		<div class="condoinfo">
+			<div class="condopic" style="margin-left: 360px;">
+				<img src="jazz.png" alt="Jazz">
+			</div>
+			<div class="description" style="width: 500px;">
+				<h3>Jazz Residences</h3>
+    			<p>Situated in the Reposo District in Makati, SMDC’s Jazz Residences is a great place for foodies and home chefs to live in as it’s surrounded by some of the city’s best restaurants and nearby supermarkets.</p>
+			</div>
+		</div>
+
+		<div class="condoinfo">
+			<div class="condopic">
+				<img src="gym.png" alt="Gym" style="width: 200px">
+				<img src="lounge.png" alt="Lounge" style="margin-right: 30px;">
+				<img src="lush.jpg" alt="Lush">
+			</div>
+			<div class="description">
+				<h3>Lush Residences</h3>
+    			<p>Lush Residences is a condominium in Makati that seamlessly blends elements of nature throughout the property, offering a natural escape from the concrete jungle of the city just north of the Makati Central Business district.</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="registrationForm">
+
+    	<div class="form-wrapper">
+			<h2 style="font-size: 36px; text-align: right; margin-bottom: 10px;">Sign up now!</h2>
+			<p style="text-align: right; font-size: 18px;">
+				Users who sign up have a chance to win a discount on SMDC Properties!<br>
+				Promo ends soon!
+			</p>
+
+			<form id="signup">
+				<label for="name">Name:</label><br>
+				<input type="text" id="name" name="name"><br>
+				<div class="error" id="nameError"></div><br>
+
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="email"><br>
+				<div class="error" id="emailError"></div><br>
+
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+
+
+    </div>
+
+</body>
+
+<script>
+        document.getElementById("signup").addEventListener("submit", function(event) {
+            let valid = true;
+
+            document.getElementById("nameError").textContent = "";
+            document.getElementById("emailError").textContent = "";
+
+            let name = document.getElementById("name").value.trim();
+            let email = document.getElementById("email").value.trim();
+
+            if (name === "") {
+                document.getElementById("nameError").textContent = "Name is required.";
+                valid = false;
+            }
+            
+            if (email === "" || !email.includes("@")) {
+                document.getElementById("emailError").textContent = "Valid email is required.";
+                valid = false;
+            }
+            
+            if (!valid) {
+                event.preventDefault();
+            }
+        });
+    </script>
+</html>
+
